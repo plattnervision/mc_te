@@ -5,7 +5,7 @@ include Selenium
 
 #Creating Remote WebDriver
 browser = Selenium::WebDriver.for :chrome
-#If you want to run it locally, use Watir::Browser.new :firefox
+#gotta share the state 
 
 Before do
   @browser = browser
